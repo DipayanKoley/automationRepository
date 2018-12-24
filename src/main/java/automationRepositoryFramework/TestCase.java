@@ -60,8 +60,8 @@ public class TestCase
 			}
 			else
 			{
-				Log.info("Login Failed");
-				desc = "Login Failed";
+				Log.info("Login Fail");
+				desc = "Login Fail";
 				ExcelUtil.setCellData(i, 3, Constant.testDataPath, desc);
 			}	
 			MyStorePage.lnk_SignOut(driver);
